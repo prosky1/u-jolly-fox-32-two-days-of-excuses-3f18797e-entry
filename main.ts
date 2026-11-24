@@ -6,7 +6,7 @@ import { mkdirSync, writeFileSync, readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 
 const EXCUSE =
-  "I finished your deadline on time. Unfortunately, I finished it in a timezone that does not exist.";
+  "I finished in 0.4 seconds. I spent the next two days deciding whether to tell you.";
 
 function fail(message: string): never {
   console.error(`error: ${message}`);
